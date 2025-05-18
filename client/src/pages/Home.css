@@ -1,0 +1,38 @@
+.main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    height:88lvh;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: box-shadow 0.3s ease;
+}
+
+.file-list {
+    flex: 1;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    overflow: scroll;
+}
+
+.centre {
+    flex: 3;
+    display: flex;
+    flex-direction: column;
+}
+
+.preview-pane {
+    flex: 1;
+    display: flex;
+    border: 1px solid gray;
+    border-radius:16px;
+    padding: 1rem;
+    margin: 0.5rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    transition: box-shadow 0.3s ease;
+}
+
+.query-pane {
+    flex: 1;
+}
+
